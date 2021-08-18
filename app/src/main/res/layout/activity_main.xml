@@ -9,10 +9,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="INGREDIENTES 2 xícaras (chá) de açúcar 3 xícaras (chá) de farinha de trigo 4 colheres (sopa) de margarina 3 ovos 1 e 1/2 xícara (chá) de leite 1 colher (sopa) bem cheia de fermento em pó"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
 
+    <TextView
+        android:id="@+id/textViewNumDec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGREDIENTES 2 xícaras (chá) de açúcar 3 xícaras (chá) de farinha de trigo 4 colheres (sopa) de margarina 3 ovos 1 e 1/2 xícara (chá) de leite 1 colher (sopa) bem cheia de fermento em pó"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+        
 </androidx.constraintlayout.widget.ConstraintLayout>
