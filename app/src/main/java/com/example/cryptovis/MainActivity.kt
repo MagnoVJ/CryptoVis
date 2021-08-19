@@ -5,6 +5,20 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.widget.TextView
+import com.android.volley.toolbox.Volley
+import com.android.volley.RequestQueue
+//import com.android.volley.Request
+//import com.android.volley.Response
+import com.android.volley.VolleyError
+import com.android.volley.toolbox.StringRequest
+import java.net.URL
+import java.net.HttpURLConnection
+import java.io.IOException
+import okhttp3.OkHttpClient
+import okhttp3.Call
+import okhttp3.Callback
+import okhttp3.Request
+import okhttp3.Response
 
 class MainActivity : AppCompatActivity() {
 
@@ -37,8 +51,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun minusOneSecond() {
-        numberDec = numberDec - 1
+        //numberDec = numberDec - 1
         val textView = findViewById(R.id.textViewNumDec) as TextView
-        textView.text = numberDec.toString()
+        //textView.text = numberDec.toString()
     }
 }
